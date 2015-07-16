@@ -1,2 +1,0 @@
-# FI
-financial integration
