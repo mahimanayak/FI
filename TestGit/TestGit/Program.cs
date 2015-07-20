@@ -13,6 +13,7 @@ namespace TestGit
         {
             Math _m=new Math();
             Console.Write(_m.add(3, 4));
+            Console.ReadLine();
         }
     }
 }
