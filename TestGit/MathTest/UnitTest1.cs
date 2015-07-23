@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestGit;
+using NUnit.Framework;
 
 namespace MathTest
 {
@@ -12,7 +13,7 @@ namespace MathTest
         {
             TestGit.Math _m = new TestGit.Math();
             int result=_m.add(4,3);
-            Assert.AreEqual(result, 7);
+           NUnit.Framework.Assert.AreEqual(result, 7);
         }
     }
 }
