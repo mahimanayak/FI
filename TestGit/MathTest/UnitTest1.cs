@@ -13,7 +13,7 @@ namespace MathTest
         {
             TestGit.Math _m = new TestGit.Math();
             int result=_m.add(4,3);
-           NUnit.Framework.Assert.AreEqual(result, 7);
+            NUnit.Framework.Assert.AreEqual(result, 7);
         }
     }
 }
