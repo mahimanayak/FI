@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestGit;
-using NUnit.Framework;
+
 
 namespace MathTest
 {
