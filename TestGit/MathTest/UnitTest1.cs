@@ -11,7 +11,11 @@ namespace MathTest
         [TestCase(1,2)]
         public void TestMethod1(int a,int b)
         {
-           NUnit.Framework.Assert.AreEqual(a + b, 3);
+            TestGit.Math _m = new TestGit.Math();
+
+            NUnit.Framework.Assert.AreEqual(_m.add(a, b), 3);
         }
+
+       
     }
 }
